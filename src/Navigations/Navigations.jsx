@@ -18,7 +18,7 @@ const Navigations = () => {
           </NavLink>
 
           
-          <NavLink to="/adminpage/userlist">
+          <NavLink to="/userlist">
             {({ isActive }) => (
               <div className={isActive ? style.buttonActive : style.button}>
                 <div className={style.text}>Список</div>
@@ -27,7 +27,7 @@ const Navigations = () => {
           </NavLink>
 
           
-          <NavLink to="/adminpage/rqst">
+          <NavLink to="/rqst">
             {({ isActive }) => (
               <div className={isActive ? style.buttonActive : style.button}>
                 <div className={style.text}>Запросы</div>

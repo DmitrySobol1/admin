@@ -21,8 +21,8 @@ return (
    <Routes>
             
             <Route path="/auth" element={<Auth />} />
-            <Route path="/adminpage/userlist" element={<Userlist />} />
-            <Route path="/adminpage/rqst" element={<Rqstchangecoin />} />
+            <Route path="/userlist" element={<Userlist />} />
+            <Route path="/rqst" element={<Rqstchangecoin />} />
             
     </Routes>
 
