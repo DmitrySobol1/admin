@@ -1,0 +1,85 @@
+
+.title {
+    font-weight: bold;
+    margin: 100px 0px 10px 10px;
+    font-size: 20px;
+  }
+
+   
+  .modalYesBtn {
+    padding: 5px 30px;
+    background-color: green;
+    border-radius: 10px;
+    border: 0 solid black;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top:20px;
+  }
+
+  .btnCopy {
+      background-color: white;
+      margin-right: 5px;
+      border-radius: 5px;
+  }
+
+  .copyIcon {
+    /* weight:20px; */
+    height: 20px
+  }
+
+  .doneBtn{
+    padding: 5px 10px;
+    background-color: rgb(5, 216, 5);
+    border-radius: 5px;
+    border: 0 solid black;
+    font-weight: bold;
+    /* font-size: 18px; */
+    /* margin-top:20px; */
+  }
+
+table {
+    width: 80%;
+    /* height: 50%; */
+    border-collapse: collapse;
+    margin: 20px 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Стили для заголовков таблицы */
+  th {
+    background-color:#d49000;
+    color: black;
+    padding: 12px 15px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 16px;
+    
+  }
+  
+  /* Стили для строк таблицы */
+  td {
+    padding: 10px 15px;
+    text-align: left;
+    /* border-bottom: 1px solid #ddd; */
+    font-size: 14px;
+  }
+  
+  /* Стили для четных строк таблицы */
+  tr:nth-child(even) {
+    background-color: #2f2d2d;
+  }
+  
+  /* Стили для строк при наведении */
+  tr:hover {
+    background-color: #dfdede;
+    color: black;
+    /* opacity:70%; */
+  }
+  
+  /* Стили для первой колонки */
+  td:first-child {
+    font-weight: bold;
+    color: white;
+  }
+
+ 

@@ -1,12 +1,13 @@
 .navigations {
     position: fixed;
-    bottom: 10px;
+    top: 10px;
     /* display:flex;
     justify-content: center;
 align-items: center; */
 width: 100%;
 /* max-width: 400px; */
-   
+ /* background-color: black;   */
+ background: rgba(31, 31, 31, 0.9); 
 }
     
 .wrapper {
@@ -28,6 +29,7 @@ align-items: center;
     /* transition: all 0.3s ease; */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     font-weight: bold;
+    
 }
 
 .buttonActive {
@@ -52,4 +54,18 @@ align-items: center;
 .text {
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+.exitButton {
+    background-color:salmon;
+    opacity: 30%;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    color: #161616;
+    min-width: 100px;
+    border: 1px solid #161616;
+    /* transition: all 0.3s ease; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-weight: bold; 
 }

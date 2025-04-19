@@ -1,0 +1,72 @@
+
+.title {
+    font-weight: bold;
+    margin: 100px 0px 10px 10px;
+    font-size: 20px;
+  }
+
+
+table {
+    width: 80%;
+    /* height: 50%; */
+    border-collapse: collapse;
+    margin: 20px 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Стили для заголовков таблицы */
+  th {
+    background-color:#d49000;
+    color: black;
+    padding: 12px 15px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 16px;
+    
+  }
+  
+  /* Стили для строк таблицы */
+  td {
+    padding: 10px 15px;
+    text-align: left;
+    /* border-bottom: 1px solid #ddd; */
+    font-size: 14px;
+  }
+  
+  /* Стили для четных строк таблицы */
+  tr:nth-child(even) {
+    background-color: #2f2d2d;
+  }
+  
+  /* Стили для строк при наведении */
+  tr:hover {
+    background-color: #ffc843;
+    color: black;
+  }
+  
+  /* Стили для первой колонки */
+  td:first-child {
+    font-weight: bold;
+    color: white;
+  }
+
+  
+  
+  /* Стили для таблицы в контейнере */
+  /* div {
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }  */
+  
+  /* Стили для текста заголовка */
+  /* div > div {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #333;
+  } */
+   

@@ -1,0 +1,13 @@
+.text {
+    position: fixed;
+    top: 100px;
+
+/* width: 100%; */
+
+ background-color: white;
+ color:black;
+ text-align: center;
+ padding: 5px;
+margin-left:370px;
+border-radius: 10px;
+}

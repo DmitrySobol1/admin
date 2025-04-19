@@ -1,0 +1,30 @@
+
+.title {
+    font-weight: bold;
+    margin: 100px 0px 10px 10px;
+    font-size: 20px;
+  }
+
+   
+  .modalYesBtn {
+    padding: 10px 40px;
+    background-color: rgb(5, 216, 5);
+    border-radius: 10px;
+    border: 0 solid black;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top:20px;
+    margin-right: 10px;
+  }
+    
+  .modalNoBtn {
+    padding: 10px 40px;
+    background-color: salmon;
+    border-radius: 10px;
+    border: 0 solid black;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top:20px;
+  }
+    
+
